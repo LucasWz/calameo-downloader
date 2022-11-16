@@ -1,7 +1,7 @@
 book_list: 
  - https://fr.calameo.com/read/00052614325d97ee7ae8e
 
-svg_quality: False
+svg_quality: True
 
 headers:
   Upgrade-Insecure-Requests: '1'
