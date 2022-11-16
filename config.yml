@@ -1,8 +1,14 @@
 book_list: 
- - https://fr.calameo.com/read/00052614325d97ee7ae8e
+ - https://fr.calameo.com/read/YourBookPath_1
+ - https://fr.calameo.com/read/YourBookPath_2
+ - #etc..
 
+# SVG Quality is cleaner and alows copy-paste but is  
+# also slower. If set to false, simple pictures will
+# be downloaded
 svg_quality: True
 
+# Headers for sending requests
 headers:
-  Upgrade-Insecure-Requests: '1'
-  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36
+  Upgrade-Insecure-Requests:  '1'
+  User-Agent: # See https://www.whatsmyua.info/
